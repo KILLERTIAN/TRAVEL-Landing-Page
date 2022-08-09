@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" width="width=device-width">
+        <link rel="stylesheet" href="project.css">
+        <title>TRAVEL</title>
+        <link rel="icon" href="video/Ethereum-vector-logo-01.png">
+    </head>
+    <body>
+        <section class="section">
+            <header>
+                <h2 class="logo">Travel</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="video/Beach2.mp4" muted autoplay loop></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>NEVER STOP</h2>
+                <h3>Exploring The World</h3>
+                <p>We feel travel.
+                    Travel's in our blood.
+                    Travel's in our DNA.
+                    Time to travel.
+                    Let's go.
+                    The whole world awaits.
+                    Experts at adventure.
+                    Time for an adventure.Man is a traveler by nature. He does not like to keep static at a place for a long time. So, people like to visit new places whenever they find time and opportunity. </p>
+                    <a href="#" >Explore</a>
+            </div>
+            <ul class="social">
+                <li><a href="https://facebook.com"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+                <li><a href="https://twitter.com"><img src=https://i.ibb.co/Wnxq2Nq/twitter.png></a></li>
+                <li><a href="https://instagram.com"><img src=https://i.ibb.co/ySwtH4B/instagram.png></a></li>
+
+            </ul> 
+        </section>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+const section =document.querySelector('.section');
+
+menuToggle.addEventListener('click',() => {
+    menuToggle.classList.toggle('active');
+    section.classList.toggle('active');
+})
+        </script>
+    </body>
+</html>
