@@ -1,7 +1,13 @@
 # TRAVEL-Landing-Page
-This page has been made from watching a youtube video in order to practice Web devlopment .
+This page has been made from watching a youtube video in order to practice Web devlopment.
+
 Link to the video is https://youtu.be/8MgpE2DTTKA
+
 The background video used in the Build is taken from pexels.com 
+
+Webpage Link :- https://killertian.github.io/TRAVEL-Landing-Page/
+
+Preview
 
 ![image](https://user-images.githubusercontent.com/77867638/185459743-5ae27a49-1d29-4def-a83c-86ce63d87dac.png)
 
